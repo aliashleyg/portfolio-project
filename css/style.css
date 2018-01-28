@@ -1,0 +1,65 @@
+* {
+	/*border: red solid 2px;*/
+	font-family: 'Montserrat', sans-serif;
+	color: #393259;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c75c50;
+}
+
+hr {
+	border: 1.5px solid #c75c50;
+}
+
+.main-image {
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+.logo-image {
+	max-width: 75%;
+ 	;
+}
+
+.logo-align {
+	text-align: center;
+}
+
+.header-text {
+	text-align: center;
+}
+
+.thumbnail {
+	max-height: 100%;
+}
+
+.caption {
+	text-align: center;
+}
+
+@media (min-width:768px) {
+	.header-text {
+		text-align:right;
+	}
+	.logo-align {
+	text-align: left;
+}
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+	
+}
