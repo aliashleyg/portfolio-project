@@ -1,6 +1,6 @@
 * {
 	/*border: red solid 2px;*/
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: #393259;
 }
 
@@ -28,8 +28,7 @@ hr {
 
 .logo-image {
 	max-width: 75%;
- 	;
-}
+ }
 
 .logo-align {
 	text-align: center;
@@ -39,21 +38,18 @@ hr {
 	text-align: center;
 }
 
-.thumbnail {
-	max-height: 100%;
-}
-
 .caption {
 	text-align: center;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
 	.header-text {
-		text-align:right;
+		text-align: right;
 	}
+
 	.logo-align {
-	text-align: left;
-}
+		text-align: left;
+	}
 }
 
 @media (min-width:992px) {
